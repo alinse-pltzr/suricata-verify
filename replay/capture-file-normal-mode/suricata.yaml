@@ -1,0 +1,12 @@
+%YAML 1.1
+---
+
+outputs:
+  - pcap-log:
+      enabled: yes
+      mode: normal
+      filename: "to_look_up"
+      conditional: alerts
+
+af-packet:
+  - interface: default
